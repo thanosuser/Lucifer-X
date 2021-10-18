@@ -22,11 +22,11 @@ from Lucifer.LuciferConfig import Config, Var
 HELP_PIC = (
     Var.HELP_PIC
     if Var.HELP_PIC
-    else "https://telegra.ph/file/78bebb896c10ef6213066.jpg"
+    else None 
 )
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lucifer User"
 CMD_HNDLR = Config.CMD_HNDLR
-CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "⫸")
+CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "•")
 
 if CMD_HNDLR is None:
     CMD_HNDLR = "."
