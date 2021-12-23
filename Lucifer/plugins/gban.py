@@ -56,7 +56,7 @@ async def gspider(userbot):
     me = await userbot.client.get_me()
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     await lol.edit(
-        f"gℓσвαℓ вαη ιs cσммιηg мү вσι! נυsт ωαιт αη∂ ωαтcн😏😏 \nвү үσυя ∂α∂ {my_mention}"
+        f"gℓσвαℓ вαη ιs cσммιηg мү вσι! נυsт ωαιт αη∂ ωαтcн🔥🔥 \nвү үσυя ∂α∂ {my_mention}"
     )
 
     f"@{me.username}" if me.username else my_mention
