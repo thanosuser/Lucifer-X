@@ -1,4 +1,4 @@
-<h2 align="center"><b>OwNeR <a href="https://telegram.dog/Murat_30_God ">『 Manjeet』and『MD NOOR』</a></b></h2>
+<h2 align="center"><b>OwNeR <a href="https://telegram.dog/THANOSCEO ">『RISHABH』</a></b></h2>
 # Lucifer-X
 > Telethon based userbot (•~•)
 <h1 align="center">⚡Lucifer-X⚡</h1>
