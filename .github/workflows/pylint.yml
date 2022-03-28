@@ -30,6 +30,6 @@ jobs:
           commit_message: 'Improve'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: MdNoor786
-          commit_user_email: MdNoor786@users.noreply.github.com
-          commit_author: MdNoor786 <MdNoor786@users.noreply.github.com>
+          commit_user_name: thanosuser
+          commit_user_email: ultronrobot7@gmail.com
+          commit_author: thanosuser <thanosuser@users.noreply.github.com>
