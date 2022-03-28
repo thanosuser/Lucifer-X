@@ -19,11 +19,7 @@ import os
 from Lucifer import ALIVE_NAME, CMD_HELP, CMD_HNDLR, CMD_LIST
 from Lucifer.LuciferConfig import Config, Var
 
-HELP_PIC = (
-    Var.HELP_PIC
-    if Var.HELP_PIC
-    else "https://telegra.ph/file/78bebb896c10ef6213066.jpg"
-)
+HELP_PIC = Var.HELP_PIC if Var.HELP_PIC else "https://telegra.ph/file/73373552e9217e010e853.jpg"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lucifer User"
 CMD_HNDLR = Config.CMD_HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "⫸")
@@ -66,18 +62,18 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @LuciferXsupport**"
+                    string += "\n\n**© @Lucifer_support_group**"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @LuciferXsupport**"
+                    string += "\n**© @Lucifer_support_group**"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝚅𝙰𝙻𝙸𝙳 𝙿𝙻𝚄𝙶𝙸𝙽!!")
         else:
-            help_string = f"""`ℓυcιғεя υв нєℓρ мєиυ ρяσνι∂є∂ ву` [тєαм ℓυcιғεя υв](t.me/Lucifer_support_group) fσя **{DEFAULTUSER}**\nɪғ ɪɴ ᴄᴀsᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴅᴏᴇsɴ'ᴛ ᴀᴘᴘᴇᴀʀ Tʜᴀɴ ᴜ ᴄᴀɴ ᴜsᴇ `.help plugin name`\n\n"""
+            help_string = f"""`𝘭Lucifer υв нєℓρ мєиυ ρяσνι∂є∂ ву` [тєαм ?Lucifer𝘭 υв](t.me/Lucifer_support_group) fσя **{DEFAULTUSER}**\nɪғ ɪɴ ᴄᴀsᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴅᴏᴇsɴ'ᴛ ᴀᴘᴘᴇᴀʀ Tʜᴀɴ ᴜ ᴄᴀɴ ᴜsᴇ `.help plugin name`\n\n"""
             try:
                 results = await bot.inline_query(  # pylint:disable=E0602
                     tgbotusername, help_string
